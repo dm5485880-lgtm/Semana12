@@ -1,0 +1,20 @@
+Ejemplo 1
+
+servicios públicos,
+Automatización simple con n8n y Telegram
+
+Evento que activa la automatización: Se registra un nuevo reporte de falla o solicitud relacionada con servicios públicos.
+
+Mensaje que se envía por Telegram: “🔔 Nuevo reporte de servicio público recibido. Revisa la plataforma para asignar el trámite.”
+
+Información que no debe enviarse por seguridad: Cédulas de los ciudadanos, números de teléfono privados, direcciones completas, datos de identificación de predios y cualquier información personal adjunta al reporte.
+
+
+Ejemplo 2
+Automatización simple con n8n y Telegram
+
+Evento que activa la automatización: Se recibe una nueva petición o solicitud de la comunidad en el formulario de la junta vecinal.
+
+Mensaje que se envía por Telegram: “📋 Nueva petición comunitaria registrada. Ingresa a la plataforma para revisar y dar trámite.”
+
+Información que no debe enviarse por seguridad: Números de cédula, teléfonos privados, direcciones exactas, datos de menores de edad, reclamos confidenciales y cualquier dato personal de los vecinos.

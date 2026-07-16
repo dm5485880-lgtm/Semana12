@@ -1,0 +1,23 @@
+Modelo de Datos: Plataforma de Gestión de Información
+
+Entidad 1: Usuario
+
+Almacena los datos de las personas que usan la plataforma. Sus campos son:
+id usuario: Identificador único, valor numérico que se genera automáticamente y no se repite. Es la clave principal de esta entidad.
+Nombre completo: Nombres y apellidos del usuario, no puede quedar vacío.
+correo electrónico: Dirección de correo para acceder y recibir avisos, debe ser único para cada usuario y no puede quedar vacío.
+rol plataforma: Tipo de permiso que tiene el usuario, sólo admite los valores: administrador, operador o consulta.
+Fecha registro: Fecha y hora exacta en que se crea la cuenta, se asigna automáticamente y no puede quedar vacío.
+
+
+Entidad 2: Registro de Dato
+
+Almacena la información que se gestiona dentro de la plataforma. 
+Sus campos son:
+id registro: Identificador único, valor numérico que se genera automáticamente y no se repite. Es la clave principal de esta entidad.
+tipo dato: Categoría a la que pertenece la información, por ejemplo: medición, informe o dato operativo. No puede quedar vacío.
+contenido dato: Información detallada que se guarda, puede ser texto libre o formato estructurado. No puede quedar vacío.
+estado proceso: Situación actual del dato, sólo admite los valores: pendiente, validado o rechazado.
+id usuario: Identificador del usuario que creó o administra este registro. Es la clave foránea que se conecta con el campo id usuario de la entidad Usuario; no puede quedar vacío.
+fecha modificación: Fecha y hora de la última vez que se cambió el registro, se actualiza automáticamente y no puede quedar vacío.
+

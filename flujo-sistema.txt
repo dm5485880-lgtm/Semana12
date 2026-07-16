@@ -1,0 +1,8 @@
+Flujo del sistema "Petición en 3 Clics" enfocado en la experiencia rápida y el uso compartido:
+
+1 Un ciudadano accede a la plataforma y presiona el botón "Iniciar nueva petición".
+2 Escribe brevemente qué pide y a quién va dirigida, y confirma con un clic.
+3 El sistema crea la página pública de la causa y genera un enlace corto para compartir.
+4 Otras personas entran al enlace y dan su apoyo con un solo clic, sin formularios largos.
+5 El sistema acumula los apoyos en tiempo real y muestra el progreso en la pantalla.
+6 Al llegar al objetivo, se descarga automáticamente el PDF listo para imprimir o enviar.
